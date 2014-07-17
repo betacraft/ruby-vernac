@@ -1721,7 +1721,7 @@ void rb_add_event_hook(rb_event_hook_func_t func, rb_event_flag_t events, VALUE 
 int rb_remove_event_hook(rb_event_hook_func_t func);
 
 /* locale insensitive functions */
-
+//everyting is asccii
 #define rb_isascii(c) ((unsigned long)(c) < 128)
 int rb_isalnum(int c);
 int rb_isalpha(int c);

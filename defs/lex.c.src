@@ -14,6 +14,7 @@ __FILE__, {keyword__FILE__, keyword__FILE__}, EXPR_END
 BEGIN, {keyword_BEGIN, keyword_BEGIN}, EXPR_END
 END, {keyword_END, keyword_END}, EXPR_END
 alias, {keyword_alias, keyword_alias}, EXPR_FNAME
+बहुरूपी, {keyword_alias, keyword_alias}, EXPR_FNAME
 and, {keyword_and, keyword_and}, EXPR_VALUE
 begin, {keyword_begin, keyword_begin}, EXPR_BEG
 break, {keyword_break, keyword_break}, EXPR_MID
@@ -22,12 +23,15 @@ class, {keyword_class, keyword_class}, EXPR_CLASS
 def, {keyword_def, keyword_def}, EXPR_FNAME
 defined?, {keyword_defined, keyword_defined}, EXPR_ARG
 do, {keyword_do, keyword_do}, EXPR_BEG
+कर, {keyword_do, keyword_do}, EXPR_BEG
 else, {keyword_else, keyword_else}, EXPR_BEG
 elsif, {keyword_elsif, keyword_elsif}, EXPR_VALUE
 end, {keyword_end, keyword_end}, EXPR_END
+शेवट, {keyword_end, keyword_end}, EXPR_END
 ensure, {keyword_ensure, keyword_ensure}, EXPR_BEG
 false, {keyword_false, keyword_false}, EXPR_END
 for, {keyword_for, keyword_for}, EXPR_VALUE
+जर, {keyword_if, modifier_if}, EXPR_VALUE
 if, {keyword_if, modifier_if}, EXPR_VALUE
 in, {keyword_in, keyword_in}, EXPR_VALUE
 module, {keyword_module, keyword_module}, EXPR_VALUE

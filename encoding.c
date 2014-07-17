@@ -1930,6 +1930,7 @@ int rb_islower(int c) { return ctype_test(c, ONIGENC_CTYPE_LOWER); }
 int rb_isprint(int c) { return ctype_test(c, ONIGENC_CTYPE_PRINT); }
 int rb_ispunct(int c) { return ctype_test(c, ONIGENC_CTYPE_PUNCT); }
 int rb_isspace(int c) { return ctype_test(c, ONIGENC_CTYPE_SPACE); }
+// isupper fix
 int rb_isupper(int c) { return ctype_test(c, ONIGENC_CTYPE_UPPER); }
 int rb_isxdigit(int c) { return ctype_test(c, ONIGENC_CTYPE_XDIGIT); }
 

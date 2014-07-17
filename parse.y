@@ -8161,7 +8161,7 @@ parser_yylex(struct parser_params *parser)
 			pushback(c);
 		    }
 		}
-		if (result == 0 && ISUPPER(tok()[0])) {
+		if (result == 0 && ISUPPER(tok()[0]) ) {
 		    result = tCONSTANT;
 		}
 		else {
@@ -8177,7 +8177,7 @@ parser_yylex(struct parser_params *parser)
 		    return tLABEL;
 		}
 	    }
-	    if (mb == ENC_CODERANGE_7BIT && !IS_lex_state(EXPR_DOT)) {
+	    if ( !IS_lex_state(EXPR_DOT)) {
 		const struct kwtable *kw;
 
 		/* See if it is a reserved word.  */
@@ -9888,7 +9888,7 @@ reg_fragment_setenc_gen(struct parser_params* parser, VALUE str, int options)
 	rb_char_to_option_kcode(c, &opt, &idx);
 	if (idx != ENCODING_GET(str) &&
 	    rb_enc_str_coderange(str) != ENC_CODERANGE_7BIT) {
-            goto error;
+//            goto error;
 	}
 	ENCODING_SET(str, idx);
     }
@@ -11282,7 +11282,7 @@ rb_data_type_t parser_data_type = {
 const struct kwtable *
 rb_reserved_word(const char *str, unsigned int len)
 {
-    return reserved_word(str, len);
+   return reserved_word(str, len);
 }
 
 static struct parser_params *

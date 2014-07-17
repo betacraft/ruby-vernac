@@ -1,0 +1,3 @@
+test.rb:3: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+print "debug \n" जर $debug
+                       ^
