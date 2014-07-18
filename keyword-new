@@ -33,7 +33,7 @@ defined?, {keyword_defined, keyword_defined}, EXPR_ARG
 do, {keyword_do, keyword_do}, EXPR_BEG
 कर, {keyword_do, keyword_do}, EXPR_BEG
 else, {keyword_else, keyword_else}, EXPR_BEG
-किंवा, {keyword_else, keyword_else}, EXPR_BEG
+शिवाय, {keyword_else, keyword_else}, EXPR_BEG
 elsif, {keyword_elsif, keyword_elsif}, EXPR_VALUE
 शिवायजर, {keyword_elsif, keyword_elsif}, EXPR_VALUE
 end, {keyword_end, keyword_end}, EXPR_END
@@ -45,7 +45,7 @@ false, {keyword_false, keyword_false}, EXPR_END
 for, {keyword_for, keyword_for}, EXPR_VALUE
 यासाठी, {keyword_for, keyword_for}, EXPR_VALUE
 if, {keyword_if, modifier_if}, EXPR_VALUE
-जर, {keyword_if, modifier_if}, EXPR_VALUE
+यासाठी, {keyword_if, modifier_if}, EXPR_VALUE
 in, {keyword_in, keyword_in}, EXPR_VALUE
 आत, {keyword_in, keyword_in}, EXPR_VALUE
 module, {keyword_module, keyword_module}, EXPR_VALUE
